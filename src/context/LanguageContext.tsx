@@ -18,24 +18,25 @@ const LanguageContext = createContext<LanguageContextType>({
   t: (enText) => enText,
 });
 
-export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [lang, setLangState] = useState<Language>("en");
-
-  useEffect(() => {
-    // Check saved language or browser preference
+function getInitialLanguage(): Language {
+  if (typeof window !== "undefined") {
     const saved = localStorage.getItem("km_lang") as Language | null;
     if (saved && (saved === "en" || saved === "ne")) {
-      setLangState(saved);
-      document.documentElement.lang = saved;
-    } else {
-      // Check browser language
-      const browserLang = navigator.language.toLowerCase();
-      if (browserLang.startsWith("ne")) {
-        setLangState("ne");
-        document.documentElement.lang = "ne";
-      }
+      return saved;
     }
-  }, []);
+    if (navigator.language.toLowerCase().startsWith("ne")) {
+      return "ne";
+    }
+  }
+  return "en";
+}
+
+export function LanguageProvider({ children }: { children: React.ReactNode }) {
+  const [lang, setLangState] = useState<Language>(getInitialLanguage);
+
+  useEffect(() => {
+    document.documentElement.lang = lang;
+  }, [lang]);
 
   const setLang = (newLang: Language) => {
     setLangState(newLang);

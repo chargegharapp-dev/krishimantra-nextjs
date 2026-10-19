@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { siteConfig } from "@/lib/site-config";
 
 interface LogoProps {
   size?: "sm" | "md" | "lg";

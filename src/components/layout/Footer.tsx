@@ -10,7 +10,7 @@ import { Container } from "@/components/layout/Container";
 
 export function Footer() {
   const { t } = useLanguage();
-  const currentYear = new Date().getFullYear();
+  const currentYear = 2026;
 
   return (
     <footer className="bg-slate-900 text-slate-300 pt-16 pb-12 border-t border-slate-800">

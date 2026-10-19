@@ -13,12 +13,7 @@ export function MobileNav() {
   const pathname = usePathname();
   const { lang, toggleLang, t } = useLanguage();
 
-  // Close nav on route change
-  useEffect(() => {
-    setIsOpen(false);
-  }, [pathname]);
-
-  // Prevent scroll when menu is open
+  // Prevent background scrolling when menu is open
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = "hidden";
@@ -29,6 +24,10 @@ export function MobileNav() {
       document.body.style.overflow = "unset";
     };
   }, [isOpen]);
+
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
 
   return (
     <div className="lg:hidden flex items-center gap-2">
@@ -86,6 +85,7 @@ export function MobileNav() {
                     <Link
                       key={link.href}
                       href={link.href}
+                      onClick={handleLinkClick}
                       className={`px-3 py-2.5 rounded-lg text-sm font-semibold transition-colors flex items-center justify-between ${
                         isActive
                           ? "bg-emerald-50 text-emerald-800 font-bold"
