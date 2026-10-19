@@ -1,0 +1,41 @@
+export const siteConfig = {
+  name: "Krishi Mantra",
+  tagline: "Free farming knowledge, support and a produce marketplace for Nepal",
+  taglineNe: "नेपालका किसानहरूका लागि निःशुल्क कृषि ज्ञान, सल्लाह र उत्पादन बजार",
+  formerName: "Kheti Mantra",
+  packageName: "com.krishimantra.app",
+  developerName: "Krishi Mantra",
+  location: "Chitwan, Nepal",
+  address: "Chitwan, Bagmati Province, Nepal",
+  email: "support@krishimantra.app",
+  phone: "+977-9865020935",
+  supportHours: "Sunday to Friday, 10:00 AM to 5:00 PM (Nepal Time)",
+  supportHoursNe: "आइतबार देखि शुक्रबार, बिहान १०:०० देखि साँझ ५:०० बजेसम्म (नेपाल समय)",
+  domain: "krishimantra.app",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://krishimantra.app",
+  playStoreUrl: "https://play.google.com/store/apps/details?id=com.krishimantra.app",
+  playStoreStatus: "coming_soon" as const, // "live" | "coming_soon"
+  effectiveDate: "October 19, 2026",
+  effectiveDateNe: "२०८३ कार्तिक ०३ (October 19, 2026)",
+  lastUpdatedDate: "October 19, 2026",
+  languages: ["Nepali", "English"],
+  navLinks: [
+    { label: "Home", labelNe: "गृहपृष्ठ", href: "/" },
+    { label: "About", labelNe: "हाम्रोबारे", href: "/about" },
+    { label: "Terms", labelNe: "सर्तहरू", href: "/terms" },
+    { label: "Privacy Policy", labelNe: "गोपनीयता नीति", href: "/privacy-policy" },
+    { label: "Contact & Support", labelNe: "सम्पर्क तथा सहयोग", href: "/contact" },
+    { label: "Delete Account", labelNe: "खाता मेटाउनुहोस्", href: "/delete-account" },
+  ],
+  legalLinks: [
+    { label: "Terms and Conditions", labelNe: "नियम तथा सर्तहरू", href: "/terms" },
+    { label: "Privacy Policy", labelNe: "गोपनीयता नीति", href: "/privacy-policy" },
+    { label: "Delete Account Policy", labelNe: "खाता मेटाउने नीति", href: "/delete-account" },
+    { label: "Contact & Support", labelNe: "सम्पर्क तथा सहयोग", href: "/contact" },
+    { label: "About Krishi Mantra", labelNe: "हाम्रो बारेमा", href: "/about" },
+  ],
+  generalDisclaimer:
+    "Krishi Mantra provides general agricultural information. Always consult local agricultural experts for decisions specific to your farm.",
+  generalDisclaimerNe:
+    "कृषि मन्त्रले सामान्य कृषि जानकारी र मार्गदर्शन प्रदान गर्दछ। आफ्नो खेतको विशेष निर्णयका लागि सधैं स्थानीय कृषि विज्ञसँग सल्लाह लिनुहोस्।",
+};

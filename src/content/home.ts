@@ -1,0 +1,253 @@
+export const homeContent = {
+  hero: {
+    badge: "100% Free Mobile App for Nepal's Farmers",
+    badgeNe: "नेपालका किसानहरूका लागि १००% निःशुल्क मोबाइल एप",
+    headline: "Farming knowledge and agri-products, together in one app for Nepal's farmers",
+    headlineNe: "नेपालका किसानहरूका लागि कृषि ज्ञान र उत्पादन बजार, एउटै एपमा",
+    subhead:
+      "Access free video lessons, get practical crop guidance, check local weather, and connect directly with produce buyers across Nepal with Cash on Delivery.",
+    subheadNe:
+      "निःशुल्क भिडियो कक्षाहरू हेर्नुहोस्, खेतीपातीका समस्यामा सल्लाह लिनुहोस्, स्थानीय मौसम हेर्नुहोस् र क्यास अन डेलिभरीमा सिधै उत्पादन किनबेच गर्नुहोस्।",
+    primaryCta: "Get it on Google Play",
+    primaryCtaNe: "गुगल प्ले स्टोरबाट डाउनलोड गर्नुहोस्",
+    secondaryCta: "Learn More",
+    secondaryCtaNe: "थप जान्नुहोस्",
+    note: "Free forever • No credit cards or online payment • Available in Nepali & English",
+    noteNe: "सधैंका लागि निःशुल्क • कुनै कार्ड वा अनलाइन भुक्तानी चाहिँदैन • नेपाली र अंग्रेजीमा उपलब्ध",
+  },
+  trustStrip: [
+    { label: "100% Free to Use", labelNe: "१००% निःशुल्क प्रयोग", desc: "No subscriptions, no hidden fees", descNe: "कुनै सदस्यता वा लुकेको शुल्क छैन" },
+    { label: "Nepali & English", labelNe: "नेपाली र अंग्रेजी भाषा", desc: "Switch anytime inside the app", descNe: "एपभित्रै सजिलै भाषा फेर्न मिल्ने" },
+    { label: "Made in Chitwan, Nepal", labelNe: "चितवन, नेपालमा निर्मित", desc: "Built with love for local farming communities", descNe: "नेपाली किसान समुदायको आवश्यकता अनुसार" },
+    { label: "Cash on Delivery Only", labelNe: "क्यास अन डेलिभरी मात्र", desc: "Zero financial risk, no payment info stored", descNe: "कुनै बैंक विवरण नमागिने, सुरक्षित कारोबार" },
+  ],
+  whatIs: {
+    title: "What is Krishi Mantra?",
+    titleNe: "कृषि मन्त्र के हो?",
+    p1: "Krishi Mantra is a free mobile app for farmers in Nepal, built in Chitwan, Nepal. Many farmers still struggle to get timely farming knowledge, advice on crop and animal problems, weather information and a fair way to sell their produce. We created Krishi Mantra to bring these together in one simple app, in the languages farmers use: Nepali and English.",
+    p1Ne:
+      "कृषि मन्त्र नेपालका किसानहरूका लागि चितवन, नेपालमा निर्माण गरिएको एक निःशुल्क मोबाइल एप हो। धेरै किसानहरू अझै पनि समयमै कृषि ज्ञान, बाली तथा पशु सम्बन्धी समस्यामा सल्लाह, मौसम जानकारी र आफ्नो उत्पादन उचित मूल्यमा बेच्ने उपाय पाउन संघर्ष गरिरहेका छन्। हामीले यी सबैलाई नेपाली र अंग्रेजी भाषामा एउटै सरल एपमा उपलब्ध गराएका छौं।",
+    p2: "We are a small team that believes practical farming knowledge should be easy to reach and free to use. Krishi Mantra provides lifelong free learning, direct problem consultations, and an agricultural marketplace with zero platform commissions.",
+    p2Ne:
+      "हामी व्यावहारिक कृषि ज्ञान सबैको पहुँचमा र निःशुल्क हुनुपर्छ भन्ने विश्वास राख्ने एउटा समर्पित टिम हौं। कृषि मन्त्रले जीवनभर निःशुल्क सिकाइ, सिधा समस्या परामर्श र शून्य कमिसन भएको कृषि बजार उपलब्ध गराउँछ।",
+  },
+  pillars: [
+    {
+      id: "knowledge-pillar",
+      badge: "Knowledge & Advisory",
+      badgeNe: "ज्ञान तथा परामर्श",
+      title: "Knowledge and Information Sharing",
+      titleNe: "कृषि ज्ञान र जानकारी आदानप्रदान",
+      description:
+        "Watch practical video courses, read illustrated guides, and listen to audio lessons on crop cultivation, livestock care, organic farming, and pest management. Submit photos or voice notes of crop/animal problems and receive personalized guidance from our advisory team.",
+      descriptionNe:
+        "बाली खेती, पशुपालन, प्राङ्गारिक खेती र कीरा नियन्त्रण सम्बन्धी भिडियो कक्षाहरू हेर्नुहोस् र अडियो पाठहरू सुन्नुहोस्। बाली वा पशुमा समस्या आएमा फोटो वा भ्वाइस सन्देश पठाएर हाम्रो सल्लाहकार टिमबाट निःशुल्क मार्गदर्शन पाउनुहोस्।",
+      points: [
+        "Free video and audio lessons on crops & livestock",
+        "Ask problems via photo or voice message",
+        "Free soil and water quality guidance",
+        "Local weather alerts to plan field activities",
+      ],
+      pointsNe: [
+        "बाली र पशुपालन सम्बन्धी निःशुल्क भिडियो तथा अडियो पाठहरू",
+        "फोटो वा आवाज सन्देश पठाएर समस्याको समाधान सोध्ने सुविधा",
+        "माटो र पानीको गुणस्तर सम्बन्धी निःशुल्क परामर्श",
+        "खेतबारीको काम योजना गर्न स्थानीय मौसम र अलर्टहरू",
+      ],
+      ctaText: "Explore Courses & Advisory",
+      ctaTextNe: "हाम्रो सेवाहरूबारे जान्नुहोस्",
+      href: "/about#what-you-can-do",
+    },
+    {
+      id: "ecommerce-pillar",
+      badge: "Marketplace",
+      badgeNe: "उत्पादन बजार",
+      title: "Direct Produce Marketplace",
+      titleNe: "प्रत्यक्ष किसान उत्पादन बजार",
+      description:
+        "Farmers can list their harvests with real photos, descriptions, and prices. Buyers browse fresh produce and agricultural goods directly from local producers. All orders are settled via Cash on Delivery upon inspection.",
+      descriptionNe:
+        "किसानहरूले आफ्ना उत्पादनहरू वास्तविक फोटो, परिमाण र मूल्यसहित सिधै सूचीकृत गर्न सक्छन्। खरिदकर्ताहरूले स्थानीय उत्पादकहरूबाट ताजा कृषि उपज अर्डर गर्न सक्छन्। सबै अर्डरहरू सामान हेरेर क्यास अन डेलिभरीमा मात्र भुक्तान गरिन्छ।",
+      points: [
+        "List produce in seconds with phone photos",
+        "Direct connection between buyer and farmer",
+        "Cash on Delivery only – no online payments or bank cards",
+        "Zero platform commissions or hidden listing charges",
+      ],
+      pointsNe: [
+        "फोनबाट फोटो खिचेर सेकेन्डमै उत्पादन सूचीकृत गर्नुहोस्",
+        "खरिदकर्ता र किसानबीच सिधा सम्पर्क",
+        "क्यास अन डेलिभरी मात्र – कुनै बैंक कार्ड वा अनलाइन भुक्तानी चाहिँदैन",
+        "कुनै कमिसन वा लुकेको शुल्क नलाग्ने",
+      ],
+      ctaText: "Read Marketplace Terms",
+      ctaTextNe: "बजारका नियमहरू हेर्नुहोस्",
+      href: "/terms#marketplace-terms",
+    },
+  ],
+  features: [
+    {
+      icon: "BookOpen",
+      title: "Free Learning Management",
+      titleNe: "निःशुल्क कृषि सिकाइ (LMS)",
+      desc: "Comprehensive video, text, and audio courses on crops, livestock, soil health, and organic farming techniques.",
+      descNe: "बाली, पशुपालन, माटोको स्वास्थ्य र प्राङ्गारिक खेती प्रविधि सम्बन्धी भिडियो, लेख र अडियो पाठहरू।",
+    },
+    {
+      icon: "HelpCircle",
+      title: "Ask Your Problem",
+      titleNe: "आफ्नो समस्या सोध्नुहोस्",
+      desc: "Send a photo or voice note describing your crop or livestock problem; our team inspects and replies in the app.",
+      descNe: "बाली वा पशुको समस्याको फोटो वा भ्वाइस नोट पठाउनुहोस्; हाम्रो टिमले हेरेर एपमै समाधान पठाउँछ।",
+    },
+    {
+      icon: "Sparkles",
+      title: "Free Farmer Consultation",
+      titleNe: "निःशुल्क प्राविधिक परामर्श",
+      desc: "Guidance on soil and water quality, animal care, and general agriculture, completely free for life.",
+      descNe: "माटो र पानीको गुणस्तर, पशु हेरचाह, र सामान्य खेतीपातीमा जीवनभर निःशुल्क परामर्श।",
+    },
+    {
+      icon: "CloudSun",
+      title: "Weather & Alerts",
+      titleNe: "मौसम र कृषि अलर्टहरू",
+      desc: "Hyper-local weather forecasts and daily agricultural tips to help you schedule sowing, irrigation, and harvesting.",
+      descNe: "स्थान अनुसारको मौसम पूर्वानुमान र दैनिक कृषि सुझावहरू, जसले सिँचाइ र बाली भित्र्याउन मद्दत गर्छ।",
+    },
+    {
+      icon: "ShoppingBag",
+      title: "Produce Marketplace",
+      titleNe: "किसान बजार (Marketplace)",
+      desc: "A dedicated marketplace for farmers to sell fresh crops and buyers to order produce directly via Cash on Delivery.",
+      descNe: "किसानहरूले उत्पादन बेच्ने र खरिदकर्ताहरूले सिधै क्यास अन डेलिभरीमा ताजा उपज किन्ने बजार।",
+    },
+    {
+      icon: "Mic",
+      title: "Voice & Photo Friendly",
+      titleNe: "आवाज र फोटो सुविधा",
+      desc: "Built for every farmer regardless of literacy; easily ask questions or create listings using voice and photos.",
+      descNe: "सबै किसानका लागि सहज; टाइप गर्न नपर्ने गरी आवाज (भ्वाइस) र फोटोबाटै प्रश्न सोध्न वा उत्पादन राख्न सकिने।",
+    },
+    {
+      icon: "ShieldCheck",
+      title: "Privacy First",
+      titleNe: "गोपनीयता र सुरक्षा",
+      desc: "We never sell your data, never serve 3rd-party ads, and allow full account & data deletion in 72 hours.",
+      descNe: "हामी तपाईँको डाटा कहिल्यै बेच्दैनौं, विज्ञापन देखाउँदैनौं र ७२ घण्टाभित्र सम्पूर्ण डाटा मेटाउने सुविधा दिन्छौं।",
+    },
+    {
+      icon: "Languages",
+      title: "Bilingual (Nepali & English)",
+      titleNe: "नेपाली र अंग्रेजी दुवै भाषा",
+      desc: "Switch between clear Devanagari Nepali and English anytime with a single tap inside the app.",
+      descNe: "एपभित्रै एक ट्यापमै शुद्ध नेपाली देवनागरी वा अंग्रेजी भाषामा सजिलै परिवर्तन गर्न सकिने।",
+    },
+  ],
+  howItWorks: [
+    {
+      step: "01",
+      title: "Download & Simple Sign-Up",
+      titleNe: "१. डाउनलोड र सजिलो दर्ता",
+      desc: "Install the free app from Google Play and register in seconds with just your mobile number, name, and a password.",
+      descNe: "गुगल प्लेबाट निःशुल्क एप डाउनलोड गर्नुहोस् र आफ्नो नाम, मोबाइल नम्बर र पासवर्ड राखेर सेकेन्डमै दर्ता गर्नुहोस्।",
+    },
+    {
+      step: "02",
+      title: "Learn, Consult & Explore",
+      titleNe: "२. सिक्नुहोस् र सल्लाह लिनुहोस्",
+      desc: "Watch farming courses, get soil/crop guidance by sending a photo, or check local weather alerts for your district.",
+      descNe: "कृषि कक्षाहरू हेर्नुहोस्, फोटो पठाएर बालीको समस्यामा सल्लाह लिनुहोस् र आफ्नो जिल्लाको मौसम हेर्नुहोस्।",
+    },
+    {
+      step: "03",
+      title: "List & Trade with COD",
+      titleNe: "३. क्यास अन डेलिभरीमा किनबेच",
+      desc: "List your harvest for buyers or order fresh produce. Inspect your items on delivery and pay with cash on delivery.",
+      descNe: "आफ्नो उत्पादन बिक्रीमा राख्नुहोस् वा ताजा उपज अर्डर गर्नुहोस्। सामान प्राप्त भएपछि जाँचेर नगद भुक्तानी गर्नुहोस्।",
+    },
+  ],
+  whoItIsFor: [
+    {
+      title: "Nepali Smallholder Farmers",
+      titleNe: "नेपाली साना तथा मझौला किसानहरू",
+      desc: "Get practical answers to everyday crop and animal ailments without needing to travel or pay expensive consultation fees.",
+      descNe: "टाढा जानु नपरी र परामर्श शुल्क नतिरी बाली र पशुका दैनिक समस्याहरूको व्यावहारिक समाधान पाउनुहोस्।",
+    },
+    {
+      title: "Agricultural Producers & Sellers",
+      titleNe: "कृषि उत्पादक तथा बिक्रेताहरू",
+      desc: "Find buyers for seasonal harvests without intermediaries taking away your hard-earned profits.",
+      descNe: "बिचौलियाहरूलाई आफ्नो पसिनाको नाफा नगुमाई मौसमी उत्पादनका लागि सिधा ग्राहक फेला पार्नुहोस्।",
+    },
+    {
+      title: "Household & Wholesale Buyers",
+      titleNe: "घरेलु तथा थोक खरिदकर्ताहरू",
+      desc: "Order farm-fresh vegetables, grains, fruits, and livestock directly from local farms with safe Cash on Delivery.",
+      descNe: "सुरक्षित क्यास अन डेलिभरीमा स्थानीय किसानहरूबाट सिधै ताजा तरकारी, अन्न, फलफूल र कृषि सामग्री मगाउनुहोस्।",
+    },
+  ],
+  commitments: [
+    {
+      title: "100% Free Forever",
+      titleNe: "सधैंका लागि निःशुल्क",
+      desc: "Learning content and farmer consultations will always remain free. No hidden charges.",
+      href: "/about#what-makes-us-different",
+    },
+    {
+      title: "No Financial Data Collected",
+      titleNe: "कुनै वित्तीय विवरण नलिइने",
+      desc: "No bank account, credit card, or digital wallet credentials are ever requested.",
+      href: "/privacy-policy#summary-of-data-practices",
+    },
+    {
+      title: "Full Account Deletion",
+      titleNe: "पूर्ण खाता मेटाउने सुविधा",
+      desc: "Permanent account and data wipe within 72 hours via in-app settings or public web form.",
+      href: "/delete-account",
+    },
+    {
+      title: "Clear Community Terms",
+      titleNe: "स्पष्ट समुदाय नियमहरू",
+      desc: "Transparent rules for buyer protection, seller safety, and dispute resolution.",
+      href: "/terms",
+    },
+  ],
+  faqs: [
+    {
+      q: "Is Krishi Mantra really free to use?",
+      qNe: "के कृषि मन्त्र साँच्चै निःशुल्क छ?",
+      a: "Yes, Krishi Mantra is 100% free for life. There are no subscriptions, no premium plans, and no charges for learning courses or consultation. All Marketplace orders are paid directly in cash on delivery between buyer and seller with zero platform commission.",
+      aNe: "हो, कृषि मन्त्र जीवनभर १००% निःशुल्क छ। कुनै सदस्यता शुल्क वा प्रिमियम योजना छैन। सिकाइ सामग्री र परामर्श पूर्ण निःशुल्क हुन्। बजारका अर्डरहरू सामान पाएपछि नगदमा सिधै खरिदकर्ता र बिक्रेताबीच भुक्तान हुन्छ र एपले कुनै कमिसन लिँदैन।",
+    },
+    {
+      q: "Which languages does the app support?",
+      qNe: "एपले कुन-कुन भाषा समर्थन गर्दछ?",
+      a: "Krishi Mantra is fully available in both Nepali (Devanagari) and English. You can switch the language at any time in the app settings.",
+      aNe: "कृषि मन्त्र नेपाली (देवनागरी) र अंग्रेजी दुवै भाषामा पूर्ण रूपमा उपलब्ध छ। तपाईँले एपको सेटिङबाट जुनसुकै बेला भाषा फेर्न सक्नुहुन्छ।",
+    },
+    {
+      q: "Does Krishi Mantra handle payments or bank details?",
+      qNe: "के कृषि मन्त्रले अनलाइन भुक्तानी वा बैंक विवरण लिन्छ?",
+      a: "No. The app does not support online payments and never asks for bank accounts, debit/credit cards, or mobile wallets. All Marketplace orders are paid strictly with Cash on Delivery (COD).",
+      aNe: "लिँदैन। एपमा कुनै अनलाइन भुक्तानी छैन र यसले कहिल्यै बैंक खाता, कार्ड वा वालेट विवरण माग्दैन। सबै अर्डरहरू केवल सामान डेलिभरी हुँदा नगद (Cash on Delivery) मा भुक्तानी गरिन्छ।",
+    },
+    {
+      q: "How do I ask a question about a sick crop or animal?",
+      qNe: "बाली वा पशु बिरामी भएमा कसरी प्रश्न सोध्ने?",
+      a: "Open the 'Ask Your Problem' section in the app. You can take a photo of the affected plant or animal, type a description, or record a voice note. Our advisory team will review your submission and reply through the app.",
+      aNe: "एपमा रहेको 'आफ्नो समस्या सोध्नुहोस्' मा जानुहोस्। त्यहाँ समस्याग्रस्त बिरुवा वा पशुको फोटो खिच्न, लेख्न वा भ्वाइस नोट रेकर्ड गरेर पठाउन सक्नुहुन्छ। हाम्रो टिमले हेरेर एपमै सल्लाह पठाउँछ।",
+    },
+    {
+      q: "How do I delete my account and personal data?",
+      qNe: "मैले आफ्नो खाता र व्यक्तिगत डाटा कसरी मेटाउन सक्छु?",
+      a: "You can delete your account inside the app via Settings → Delete Account, or submit an online request from our public Delete Account webpage. Your personal information will be permanently wiped from our systems within 72 hours.",
+      aNe: "तपाईँले एपभित्रको Settings → Delete Account बाट वा हाम्रो वेबसाइटको 'खाता मेटाउनुहोस्' पृष्ठबाट फारम भरेर अनुरोध पठाउन सक्नुहुन्छ। पुष्टि भएको ७२ घण्टाभित्र सम्पूर्ण व्यक्तिगत डाटा स्थायी रूपमा मेटाइन्छ।",
+    },
+    {
+      q: "How can I contact customer support?",
+      qNe: "ग्राहक सेवामा कसरी सम्पर्क गर्न सकिन्छ?",
+      a: "You can reach us by email at support@krishimantra.app, by phone at +977-9865020935, or through the in-app support center. Our office is located in Chitwan, Nepal, and support hours are Sunday to Friday, 10:00 AM to 5:00 PM NPT.",
+      aNe: "तपाईँले support@krishimantra.app मा इमेल, +977-9865020935 मा फोन, वा एपभित्रको सहयोग विकल्पबाट सम्पर्क गर्न सक्नुहुन्छ। कार्यालय चितवनमा छ र कार्यालय समय आइतबारदेखि शुक्रबार बिहान १० देखि साँझ ५ बजेसम्म हो।",
+    },
+  ],
+};
