@@ -1,0 +1,1 @@
+# krishimantra-nextjs
