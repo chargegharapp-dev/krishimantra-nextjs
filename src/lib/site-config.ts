@@ -11,8 +11,8 @@ export const siteConfig = {
   phone: "+977-9865020935",
   supportHours: "Sunday to Friday, 10:00 AM to 5:00 PM (Nepal Time)",
   supportHoursNe: "आइतबार देखि शुक्रबार, बिहान १०:०० देखि साँझ ५:०० बजेसम्म (नेपाल समय)",
-  domain: "krishimantra.app",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://krishimantra.app",
+  domain: "app.khetimantra.com.np",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://app.khetimantra.com.np",
   playStoreUrl: "https://play.google.com/store/apps/details?id=com.krishimantra.app",
   playStoreStatus: "coming_soon" as const, // "live" | "coming_soon"
   effectiveDate: "October 19, 2026",

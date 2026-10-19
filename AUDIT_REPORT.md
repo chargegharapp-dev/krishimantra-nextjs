@@ -33,7 +33,7 @@ All core facts are defined in a single source of truth at [`src/lib/site-config.
 - **Support Email:** `support@krishimantra.app`
 - **Support Phone:** `+977-9865020935`
 - **Support Hours:** Sunday to Friday, 10:00 AM to 5:00 PM (Nepal Time)
-- **Domain:** `krishimantra.app`
+- **Domain:** `app.khetimantra.com.np`
 - **Effective Date:** October 19, 2026
 
 ---
@@ -59,9 +59,9 @@ All core facts are defined in a single source of truth at [`src/lib/site-config.
 
 Paste these exact URLs into your **Google Play Console** app listing:
 
-- **Privacy Policy URL:** `https://krishimantra.app/privacy-policy`
-- **Account Deletion URL:** `https://krishimantra.app/delete-account`
-- **Website URL:** `https://krishimantra.app`
+- **Privacy Policy URL:** `https://app.khetimantra.com.np/privacy-policy`
+- **Account Deletion URL:** `https://app.khetimantra.com.np/delete-account`
+- **Website URL:** `https://app.khetimantra.com.np`
 - **Support Email:** `support@krishimantra.app`
 - **Support Phone:** `+977-9865020935`
 
